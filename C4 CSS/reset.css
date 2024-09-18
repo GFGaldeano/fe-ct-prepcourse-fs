@@ -1,0 +1,51 @@
+/* Reset CSS */
+
+/* Elimina márgenes y padding de todos los elementos */
+* {
+    margin: 0;          /* Sin margen */
+    padding: 0;         /* Sin padding */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total */
+}
+
+/* Establece un tamaño de fuente base para el documento */
+html {
+    font-size: 100%;    /* Tamaño de fuente base (100% = tamaño predeterminado del navegador) */
+}
+
+/* Establece estilos básicos para el cuerpo del documento */
+
+
+
+
+/* Elimina el estilo de lista predeterminado */
+ul, ol {
+    list-style: none; /* Sin viñetas ni números */
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none; /* Sin subrayado */
+    color: inherit;       /* Hereda el color del elemento padre */
+}
+
+/* Asegura que las imágenes se adapten al contenedor */
+img {
+    max-width: 100%; /* Imágenes no exceden el ancho de su contenedor */
+    height: auto;    /* Mantiene la proporción de aspecto */
+}
+
+/* Estilos para tablas */
+table {
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+    width: 100%;               /* Tablas ocupan el 100% del ancho disponible */
+}
+
+/* Establece estilos básicos para formularios */
+input, button, textarea {
+    font-family: inherit; /* Hereda la fuente del elemento padre */
+    font-size: inherit;   /* Hereda el tamaño de fuente */
+    line-height: inherit;  /* Hereda la altura de línea */
+}
+
+/* Puedes añadir más resets según sea necesario */
+
