@@ -5,6 +5,10 @@ function esAnagrama(str1, str2) {
    // IMPORTANTE: Un anagrama es una palabra que se forma
    // con las mismas letras que otra, pero en orden diferente.
    // Tu código:
+   var normalizar = (str) => str.toLowerCase().replace(/\s+/g, '').split('').sort().join('');
+    
+   // Comparamos las cadenas normalizadas.
+   return normalizar(str1) === normalizar(str2);
 }
 
 module.exports = esAnagrama;
